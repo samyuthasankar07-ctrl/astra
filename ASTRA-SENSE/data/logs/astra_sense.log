@@ -1,0 +1,5 @@
+2026-09-22 23:24:07,873 | ERROR | C-ASTRA load failed: C-ASTRA model not found: C:\missing\best.pt
+Traceback (most recent call last):
+  File "C:\Users\samyu\Downloads\ASTRA-SENSE_C-ASTRA_266_SYNTHETIC_DATASET\ASTRA-SENSE\main.py", line 71, in _load
+    raise FileNotFoundError(f'C-ASTRA model not found: {C_ASTRA_MODEL_PATH}')
+FileNotFoundError: C-ASTRA model not found: C:\missing\best.pt

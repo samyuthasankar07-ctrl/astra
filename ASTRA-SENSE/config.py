@@ -1,0 +1,46 @@
+import os
+from pathlib import Path
+
+APP_NAME = 'ASTRA-SENSE'
+CAMERA_WIDTH = 640
+CAMERA_HEIGHT = 480
+CAMERA_FPS = 30
+LOCAL_CAMERA_SCAN_LIMIT = 1
+CONFIDENCE_THRESHOLD = 0.40
+HELMET_CONFIDENCE_THRESHOLD = 0.65
+IOU_THRESHOLD = 0.50
+MAX_TRACK_AGE = 30
+DETECTION_INTERVAL = 1
+HISTORY_LENGTH = 30
+INTERACTION_DISTANCE_PX = 90.0
+HAND_OBJECT_DISTANCE_PX = 70.0
+TEMPORAL_SMOOTHING = 5
+SPEECH_ENABLED = True
+SPEECH_COOLDOWN = 3.0
+SPEECH_VOLUME = 0.9
+SPEECH_RATE = 170
+DEVICE = 'auto'
+IMAGE_SIZE = 640
+RECONNECT_DELAY = 2.0
+MAX_RECONNECT_ATTEMPTS = 3
+FRAME_QUEUE_SIZE = 2
+RESULT_QUEUE_SIZE = 2
+SUPPORTED_VIDEO_EXTENSIONS = {'.mp4', '.avi', '.mov', '.mkv', '.m4v', '.wmv'}
+ALLOWED_NETWORK_SCHEMES = {'http', 'https', 'rtsp'}
+BASE_DIR = Path(__file__).resolve().parent
+DATA_DIR = BASE_DIR / 'data'
+LOG_DIR = DATA_DIR / 'logs'
+MODEL_DIR = BASE_DIR / 'models'
+OBJECT_MODEL_FILENAME = 'astronaut.pt'
+GENERAL_OBJECT_MODEL_FILENAME = 'yolov8n.pt'
+C_ASTRA_MODEL_FROM_ENV = bool(os.environ.get('ASTRA_C_ASTRA_MODEL'))
+C_ASTRA_MODEL_PATH = Path(os.environ.get('ASTRA_C_ASTRA_MODEL', BASE_DIR.parent / 'c_astra_266' / 'best.pt'))
+C_ASTRA_FALLBACK_MODEL_PATH = BASE_DIR.parent / 'c_astra_266' / 'runs' / 'c_astra_266-3' / 'weights' / 'best.pt'
+C_ASTRA_CLASS_COUNT = 266
+# FoundationPose requires an object mesh, RGB-D input, and calibrated intrinsics.
+FOUNDATION_POSE_MESH_PATH = None
+FOUNDATION_POSE_DEPTH_SOURCE = None
+FOUNDATION_POSE_INTRINSICS = None
+FOUNDATION_POSE_DEBUG_DIR = str(BASE_DIR / 'data' / 'foundation_pose_debug')
+for _p in (DATA_DIR, LOG_DIR, MODEL_DIR):
+    _p.mkdir(parents=True, exist_ok=True)

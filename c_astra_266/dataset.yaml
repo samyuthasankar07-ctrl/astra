@@ -1,0 +1,271 @@
+path: .
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: Astronaut
+  1: Spacesuit
+  2: Helmet
+  3: Suit Glove
+  4: Suit Boot
+  5: Safety Tether
+  6: Waist Tether
+  7: Foot Restraint
+  8: Communication Headset
+  9: Microphone
+  10: Portable Fan
+  11: Portable Light
+  12: Wrist Mirror
+  13: Watch
+  14: Timer
+  15: Tablet
+  16: Laptop
+  17: Camera
+  18: Camera Handle
+  19: Tool Pouch
+  20: Tool Bag
+  21: Checklist
+  22: Mission Notebook
+  23: Pen
+  24: Pencil
+  25: Marker
+  26: Screwdriver
+  27: Phillips Screwdriver
+  28: Flathead Screwdriver
+  29: Torque Screwdriver
+  30: Torque Wrench
+  31: Ratchet
+  32: Socket
+  33: Allen Key
+  34: Hex Wrench
+  35: Adjustable Wrench
+  36: Open-End Wrench
+  37: Combination Wrench
+  38: Pliers
+  39: Needle-Nose Pliers
+  40: Locking Pliers
+  41: Wire Cutter
+  42: Cable Cutter
+  43: Scissors
+  44: Utility Knife
+  45: Tweezers
+  46: Spanner
+  47: Hammer
+  48: Mallet
+  49: Drill
+  50: Power Drill
+  51: Drill Bit
+  52: Measuring Tape
+  53: Ruler
+  54: Caliper
+  55: Level
+  56: Inspection Mirror
+  57: Flashlight
+  58: Vacuum Tool
+  59: Brush
+  60: Cleaning Tool
+  61: Experiment Rack
+  62: Experiment Module
+  63: Experiment Box
+  64: Experiment Container
+  65: Sample Container
+  66: Sample Holder
+  67: Sample Bag
+  68: Sample Tray
+  69: Sample Cartridge
+  70: Sample Tube
+  71: Test Tube
+  72: Vial
+  73: Bottle
+  74: Flask
+  75: Beaker
+  76: Petri Dish
+  77: Microplate
+  78: Pipette
+  79: Pipette Tip
+  80: Syringe
+  81: Needle
+  82: Tubing
+  83: Connector
+  84: Valve
+  85: Filter
+  86: Membrane
+  87: Sensor
+  88: Probe
+  89: Electrode
+  90: Microscope
+  91: Centrifuge
+  92: Incubator
+  93: Freezer
+  94: Refrigerator
+  95: Glovebox
+  96: Furnace
+  97: Heating Unit
+  98: Cooling Unit
+  99: Spectrometer
+  100: Camera Microscope
+  101: Experiment Workstation
+  102: Fluid Container
+  103: Mixing Container
+  104: Reaction Chamber
+  105: Growth Chamber
+  106: Culture Vessel
+  107: Biology Sample
+  108: Materials Sample
+  109: Crystal Sample
+  110: Combustion Chamber
+  111: Pipette Tip Box
+  112: Tube Rack
+  113: Sample Rack
+  114: Bottle Cap
+  115: Tube Cap
+  116: Syringe Cap
+  117: Petri Dish Lid
+  118: Gloves
+  119: Cleaning Wipes
+  120: Absorbent Pad
+  121: Tape
+  122: Adhesive Strip
+  123: Label
+  124: Barcode Label
+  125: Sample Identification Card
+  126: Plastic Bag
+  127: Zip Bag
+  128: Waste Bag
+  129: Disposable Container
+  130: Sterile Container
+  131: Monitor
+  132: Display
+  133: Keyboard
+  134: Mouse
+  135: Trackball
+  136: Touchscreen
+  137: Control Panel
+  138: Power Panel
+  139: Circuit Board
+  140: Computer Module
+  141: Processing Unit
+  142: Power Supply
+  143: Battery
+  144: Battery Pack
+  145: Battery Charger
+  146: Electrical Connector
+  147: USB Cable
+  148: Ethernet Cable
+  149: Data Cable
+  150: Adapter
+  151: Sensor Module
+  152: Camera Module
+  153: Speaker
+  154: Headset
+  155: Antenna
+  156: Cargo Bag
+  157: Cargo Transfer Bag
+  158: Storage Bag
+  159: Storage Container
+  160: Storage Box
+  161: Equipment Container
+  162: Transport Container
+  163: Tool Container
+  164: Drawer
+  165: Cabinet
+  166: Locker
+  167: Shelf
+  168: Rack
+  169: Pouch
+  170: Velcro Strap
+  171: Elastic Strap
+  172: Restraint Strap
+  173: Cargo Net
+  174: Identification Tag
+  175: Handrail
+  176: Hatch
+  177: Hatch Handle
+  178: Docking Port
+  179: Airlock
+  180: Window
+  181: Cupola Window
+  182: Vent
+  183: Air Duct
+  184: Fan
+  185: Fire Extinguisher
+  186: Smoke Detector
+  187: CO2 Sensor
+  188: Oxygen Sensor
+  189: Pressure Sensor
+  190: Temperature Sensor
+  191: Humidity Sensor
+  192: Water Dispenser
+  193: Water Recovery System
+  194: Oxygen Generation Equipment
+  195: Life Support Equipment
+  196: Environmental Control Panel
+  197: Electrical Panel
+  198: Communication Panel
+  199: Lighting Panel
+  200: Solar Array
+  201: Radiator
+  202: Robotic Arm
+  203: Robotic Arm End Effector
+  204: External Payload
+  205: Payload Adapter
+  206: Payload Container
+  207: Space Station Rack
+  208: Treadmill
+  209: Exercise Bicycle
+  210: Resistance Exercise Device
+  211: Exercise Harness
+  212: Exercise Strap
+  213: Exercise Handle
+  214: Exercise Sensor
+  215: Food Package
+  216: Food Container
+  217: Food Pouch
+  218: Drink Pouch
+  219: Water Bottle
+  220: Food Tray
+  221: Spoon
+  222: Fork
+  223: Knife
+  224: Straw
+  225: Napkin
+  226: Wet Wipe
+  227: Toothbrush
+  228: Toothpaste
+  229: Hygiene Container
+  230: Towel
+  231: Sleeping Bag
+  232: Clothing Bag
+  233: Personal Storage Bag
+  234: Replacement Component
+  235: Spare Part
+  236: Cable
+  237: Wire
+  238: Fuse
+  239: Circuit Breaker
+  240: Fastener
+  241: Screw
+  242: Bolt
+  243: Nut
+  244: Washer
+  245: Clamp
+  246: Bracket
+  247: Hinge
+  248: Seal
+  249: O-Ring
+  250: Gasket
+  251: Pipe
+  252: Hose
+  253: Tube
+  254: Repair Patch
+  255: Adhesive
+  256: Lubricant Container
+  257: Vacuum Cleaner
+  258: Cleaning Brush
+  259: Cleaning Cloth
+  260: Waste Container
+  261: Trash Bag
+  262: Waste Collection Container
+  263: Hygiene Waste Bag
+  264: Filter Cartridge
+  265: C_ASTRA_Object_266

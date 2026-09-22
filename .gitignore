@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# YOLO training outputs
+runs/
+*/runs/
+
+# YOLO datasets / generated outputs
+c_astra_266/runs/
+
+# Logs
+logs/
+*.log
+
+# Environment / secrets
+.env
+*.key
+*.pem

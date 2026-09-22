@@ -1,0 +1,10 @@
+ultralytics>=8.3,<9
+opencv-python>=4.8
+numpy>=1.24,<3
+torch>=2.1
+torchvision>=0.16
+Pillow>=10
+pyttsx3>=2.90
+trimesh>=4
+scipy>=1.10
+PyYAML>=6
